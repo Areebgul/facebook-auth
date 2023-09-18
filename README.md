@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Project Name
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Node.js and npm installed on your machine.
 
-## Available Scripts
+1. **Download the code to your local machine.**
 
-In the project directory, you can run:
+2. **Navigate to the project's root directory:**
 
-### `npm start`
+   ```bash
+   cd frontend-directory
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Install dependencies:**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  ```bash
+   npm install
 
-### `npm test`
+4. **Create a .env file in the directory like .env.example and add your Facebook App ID:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ```bash
+  REACT_APP_FACEBOOK_APP_ID=your-app-id-here
 
-### `npm run build`
+5. **Start the React development server:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  ```bash
+  npm 
+  
+- The application will be available at http://localhost:3000.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Your Facebook App ID
 
-### `npm run eject`
+Follow these steps to obtain your Facebook App ID:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Create a Facebook Developer Account:**
+   - If you don't have one, go to the [Facebook Developer website](https://developers.facebook.com/) and create a developer account.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Create a New Facebook App:**
+   - After logging in to your Facebook Developer account, click on "My Apps" in the top right corner, and then select "Create App."
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Choose App Category:**
+   - Select "For Everything Else" as the app category.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Provide App Details:**
+   - Enter an App Display Name and an email address for the app contact.
 
-## Learn More
+5. **Create the App:**
+   - Click on "Create App ID."
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6. **Access Your App's Dashboard:**
+   - Once your app is created, you'll be taken to the App Dashboard.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+7. **Find Your App ID:**
+   - On the App Dashboard, you'll see your App ID (appId) listed at the top of the page.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Now you have successfully obtained your Facebook App ID. You can use this App ID in your project's configuration for Facebook integration.
